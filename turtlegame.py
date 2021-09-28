@@ -29,7 +29,7 @@ right_turtle.penup()
 right_turtle.goto(350,0)
 right_turtle.tilt(180)
 
-# labda
+# ball
 
 labda= turtle.Turtle()
 labda.speed(0)
