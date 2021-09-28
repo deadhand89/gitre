@@ -7,18 +7,15 @@ ablak.setup(width=800, height=600)
 ablak.bgcolor("black")
 ablak.title("TurtlePong")
 
-teknos = turtle.Turtle()
-teknos.speed(1)
-teknos.shape ("turtle")
-teknos.color ("green")
-teknos.shapesize (stretch_wid=5, stretch_len=5)
-teknos.penup()
+# left turtle
 
-teknos.forward (200)
-teknos.right (90)
-teknos.forward (200)
-teknos.right (90)
-teknos.forward (200)
-teknos.right (90)
-teknos.forward (200)
-teknos.right (90)
+left_turtle = turtle.Turtle()
+left_turtle.speed(0)
+left_turtle.shape("turtle")
+left_turtle.shapesize(stretch_width=5, stretch_height=5)
+left_turtle.color("green")
+left_turtle.penup()
+left_turtle.goto(-350,0)
+
+while True:
+    pass
