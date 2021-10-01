@@ -37,8 +37,8 @@ labda.shape("circle")
 labda.penup()
 labda.color("yellow")
 labda.goto(0,0)
-labda.dx = 0.1
-labda.dy = -0.1
+labda.dx = 0.2
+labda.dy = -0.2
 
 # points
 
